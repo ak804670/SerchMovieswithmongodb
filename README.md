@@ -48,20 +48,18 @@ The page will reload if you make edits.
 ### Backend
 -  Express
       - Backend is based on Express.Js
--   MySQL
+-   MongoDB
       - for DB 
 
-(we need to create a table into our MySql 
-
-    - create table Favorites(id int auto_increment primary key, Title varchar(255), Year varchar(255), Type varchar(255),Poster varchar(255));
-)
 
   
 ### Endpoint
 - GET - http://localhost:5000/api/favorite
        - for geting the Favorite from Database
 - POST - http://localhost:5000/api/favorite
-       - for adding the Favorite information to Database 
+       - for adding the Favorite information to Database
+- delete - http://localhost:5000/api/favorite/:_id
+         - for removing the Favorite information to Database
 
 ## 🛠 Installation and Setup Instructions
 
